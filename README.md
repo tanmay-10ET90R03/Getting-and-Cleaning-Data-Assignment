@@ -25,15 +25,25 @@ This project repository containes the following files:
 To create the data set, the following steps need to follow:
 
 -Download and unzip the dataset.
+
 -Use library "data.table" for handling large data and "dplyr" to aggregate variables to create the tidy data set.
+
 -Reading of Supporting Metadata, which are in the name of the features and activity_labels in the dataset.
+
 -Reading of Training Data.
+
 -Reading of Test Data
+
 -Merge the training and the test sets to create one data set.
+
 -Extract only the measurements on the mean and standard deviation for each measurement.
+
 -Use descriptive activity names to name the activities in the data set.
+
 -Appropriately label the data set with descriptive variable names.
+
 -Create a second, independent tidy set with the average of each variable for each activity and each subject.
+
 -Write the data set to the Tidy.txt file.
 
 ==============================================================
